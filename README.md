@@ -49,4 +49,6 @@ docker run --rm newtest-1:local
 
 ### OpenShift / Quay later
 
+later target
+
 Point `container-build.yml` at another registry (login + tags) or add a second job that mirrors **ghcr.io** → **Quay** with repo secrets.
