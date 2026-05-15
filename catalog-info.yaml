@@ -1,0 +1,21 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: newtest-1
+  description: "Python service created from Red Hat Developer Hub"
+  tags:
+    - python
+  links:
+    - url: https://github.com/dl-rhdh-org/newtest-1
+      title: Source
+      icon: github
+    - url: https://github.com/dl-rhdh-org/newtest-1/actions
+      title: GitHub Actions
+      icon: github
+  annotations:
+    github.com/project-slug: dl-rhdh-org/newtest-1
+    backstage.io/source-location: url:https://github.com/dl-rhdh-org/newtest-1/tree/main/
+spec:
+  type: service
+  lifecycle: experimental
+  owner: user:default/DLrh
